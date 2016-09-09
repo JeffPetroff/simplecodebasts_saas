@@ -15,6 +15,13 @@ end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
+
+#Use bootstrap library for styles
+gem 'bootstrap-sass', '3.3.1'
+
+#Use font awesome for fonts and icons
+gem 'font-awesome-sass', '4.2.0'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -45,6 +52,3 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
-#Use bootstrap library for styles
-gem 'bootstrap-sass', '3.3.1'
