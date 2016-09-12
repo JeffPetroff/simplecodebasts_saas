@@ -18,7 +18,7 @@ class ContactsController < ApplicationController
         else
             flash[:warning] = 'Error occred, message has not been sent'
             redirect_to new_contact_path
-      end
+        end
     end
     
     private
