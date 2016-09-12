@@ -36,6 +36,10 @@
 
 <div class="container">
   <!-- Whatever page we request, what we want is for the all the pages to show this code-->
+ 
+   <% flash.each do |key, value| %>
+     <%= content_tag :div, value, class: "alert alert-#{key}" %>
+     <% end %>
   <%= yield %> 
 </div>
 
